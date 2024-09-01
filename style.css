@@ -312,6 +312,14 @@ section {
   }
 }
 
+.sec1 {
+  display: flex;
+  .vdo {
+    padding: 40px;
+    border-radius: 20px;
+  }
+}
+
 .text-h {
   padding-top: 60px;
   h1 {
