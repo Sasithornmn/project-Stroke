@@ -26,7 +26,7 @@ input {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 425px;
+  max-width: 525px;
   background-color:#ffffff;
   border-radius: 10px;
   box-shadow: 0 10px 20px 0 rgba(#999, 0.25);
@@ -71,7 +71,7 @@ input {
   font-weight: 500;
   padding-bottom: 20px; 
 }
-.radio {
+/* .radio {
   padding: 10px;
   justify-content: center;
   border-radius: 50px;
@@ -96,7 +96,7 @@ input {
     padding: 0;
     margin: 0;
     transition: box-shadow 150ms cubic-bezier(0.95, 0.15, 0.5, 1.25);
-    /* pointer-events: none; */
+    
      &:focus {
         outline: none;
       }
@@ -114,14 +114,27 @@ input {
     font-weight: 300;
   }
   
-} 
+}  */
 
 .text-detail{
   font-size: 12px;
   font-weight: 300;
 }
 
-input[type=number] {
+input{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:450px;
+  border:none;
+  border-bottom:1px solid #757575;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+input:focus 		{ outline:none; }
+
+/* input[type=number] {
   margin: 1rem;
 	width: 4em;
 	padding: 0.5em;
@@ -135,7 +148,7 @@ input[type=number] {
 		opacity: 1;
 		background:  #0dc795;
 	}
-}
+} */
 
 .button-nav {
   background-color: #0dc795;
